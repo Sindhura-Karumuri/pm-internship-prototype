@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+psycopg2-binary
+alembic
+python-jose[cryptography]
+passlib[bcrypt]
+argon2-cffi
+pydantic
+redis
+rq
+scikit-learn
+python-dotenv
+email-validator
