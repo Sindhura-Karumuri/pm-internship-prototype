@@ -14,6 +14,11 @@ TIE_TESTS: Dict[str, Dict[str, str]] = {}
 
 app = FastAPI()
 
+@app.get("/")
+def root():
+    return {"message": "PM Internship Prototype API is running 🚀"}
+
+
 # ---------------- CORS ----------------
 app.add_middleware(
     CORSMiddleware,
