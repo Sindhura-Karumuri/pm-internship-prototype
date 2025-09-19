@@ -1,0 +1,16 @@
+@import "./components.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global overrides */
+body {
+  @apply bg-slate-50 text-slate-800 dark:bg-gray-900 dark:text-gray-100;
+  line-height: 1.6;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
